@@ -1,3 +1,4 @@
+alert('12345');
 import Search from './models/Search';
 import Recipe from './models/Recipe';
 import Likes from './models/Likes';
