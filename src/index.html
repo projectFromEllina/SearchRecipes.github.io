@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<title>Cakes // Search recipes</title>
+</head>
+<body>
+
+	<div class="container">
+		<header class="header">
+			<img src="img/logo.png" alt="logo" class="header__logo">
+			<form class="search">
+				<input type="text" class="search__field" placeholder="Search recipes...">
+				<button class="btn search__btn">
+					<svg class="search__icon">
+						<use href="img/icons.svg#icon-magnifying-glass"></use>
+					</svg>
+					<span>Search</span>
+				</button>
+			</form>
+			<div class="likes">
+				<div class="likes__field">	
+					<svg class="likes__icon">
+					    <use href="img/icons.svg#icon-heart"></use>
+					</svg>
+				</div>
+
+				<div class="likes__panel">
+					<ul class="likes__list">
+						<!-- <li>
+							<a class="likes__link" href="#23456">
+								<figure class="likes-fig">
+									<img src="img/test-1.jpg" alt="Test">
+								</figure>
+								<span class="likes__data">
+									<h4 class="likes__name">Chocolate Stout Cake ...</h4>
+									<p class="likes__author">Closet Cooking</p>
+								</span>
+							</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<div class="columns">
+			<div class="results">
+				<ul class="results__list">
+					<!-- <li>
+						<a class="results__link results__link--active" href="#23456">
+							<figure class="results__fig">
+								<img src="img/test-1.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">Chocolate Stout Cake ...</h4>
+								<p class="results__author">Closet Cooking</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="results__link" href="#76767">
+							<figure class="results__fig">
+								<img src="img/test-2.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">The Best Chocolate ...</h4>
+								<p class="results__author">The Pioneer Woman</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="results__link" href="#85354">
+							<figure class="results__fig">
+								<img src="img/test-3.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">Red Velvet ...</h4>
+								<p class="results__author">Two Peas and Their Pod</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="results__link" href="#43563">
+							<figure class="results__fig">
+								<img src="img/test-4.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">Chocolate Sheet ...</h4>
+								<p class="results__author">Two Peas and Their Pod</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="results__link" href="#2256665">
+							<figure class="results__fig">
+								<img src="img/test-5.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">Cadbury Creme Egg ...</h4>
+								<p class="results__author">My Baking Addiction</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="results__link" href="#7567567">
+							<figure class="results__fig">
+								<img src="img/test-6.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">Knock You Naked ...</h4>
+								<p class="results__author">CThe Pioneer Woman</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="results__link" href="#5676577">
+							<figure class="results__fig">
+								<img src="img/test-7.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">Red Velvet Crinkle ...</h4>
+								<p class="results__author">Two Peas and Their Pod</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="results__link" href="#98798">
+							<figure class="results__fig">
+								<img src="img/test-8.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">Cakespy: Cadbury ...</h4>
+								<p class="results__author">Serious Eats</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="results__link" href="#546464">
+							<figure class="results__fig">
+								<img src="img/test-9.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">Chocolate ...</h4>
+								<p class="results__author">The Pioneer Woman</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="results__link" href="#345345">
+							<figure class="results__fig">
+								<img src="img/test-10.jpg" alt="Test">
+							</figure>
+							<div class="results__data">
+								<h4 class="results__name">The Best Coffee ...</h4>
+								<p class="results__author">The Pioneer Woman</p>
+							</div>
+						</a>
+					</li> -->
+				</ul>
+
+				<div class="results__pages">
+					<!-- <button class="btn-inline results__btn--prev">
+						<svg class="search__icon">
+	                        <use href="img/icons.svg#icon-triangle-left"></use>
+	                    </svg>
+					</button>
+					<button class="btn-inline results__btn--next">
+						<svg class="search__icon">
+	                        <use href="img/icons.svg#icon-triangle-right"></use>
+	                    </svg>
+					</button> -->
+				</div>
+			</div>
+
+			<div class="recipe">
+				<!-- <figure class="recipe__fig">
+					<img class="recipe__img" src="img/test-1.jpg" alt="Cake">
+					<h1 class="recipe__title">
+						<span>Chocolate Sheet Cake with Peanut Butter Frosting</span>
+					</h1>
+				</figure>
+				<div class="recipe__details">
+					<div class="ricipe__info">
+						<svg class="recipe__info-icon">
+	                        <use href="img/icons.svg#icon-stopwatch"></use>
+	                    </svg>
+	                    <span class="recipe__info-data recipe__info-data--minutes">45</span>
+	                    <span class="recipe__info-text">minutes</span>
+					</div>
+					<button class="recipe__love">
+						<svg class="header__likes">
+						    <use href="img/icons.svg#icon-heart-outlined"></use>
+						</svg>
+					</button>
+				</div>
+
+				<div class="recipe__ingredients">
+					<ul class="recipe__ingredients-list">
+						<li class="recipe__item">
+							<svg class="recipe__icon">
+	                            <use href="img/icons.svg#icon-check"></use>
+	                        </svg>
+	                        <div class="recipe__count">1</div>
+	                        <div class="recipe__ingredient">
+	                        	<span class="recipe__unit">cup</span>
+	                        	 buttermilk
+	                        </div>
+						</li>
+						<li class="recipe__item">
+							<svg class="recipe__icon">
+	                            <use href="img/icons.svg#icon-check"></use>
+	                        </svg>
+	                        <div class="recipe__count">1</div>
+	                        <div class="recipe__ingredient">
+	                        	<span class="recipe__unit">tsp</span>
+	                        	 baking soda 
+	                        </div>
+						</li>
+						<li class="recipe__item">
+							<svg class="recipe__icon">
+	                            <use href="img/icons.svg#icon-check"></use>
+	                        </svg>
+	                        <div class="recipe__count">1</div>
+	                        <div class="recipe__ingredient">
+	                        	<span class="recipe__unit">tsp</span>
+	                        	 salt
+	                        </div>
+						</li>
+						<li class="recipe__item">
+							<svg class="recipe__icon">
+	                            <use href="img/icons.svg#icon-check"></use>
+	                        </svg>
+	                        <div class="recipe__count">1</div>
+	                        <div class="recipe__ingredient">
+	                        	<span class="recipe__unit">cup</span>
+	                        	 hot water 
+	                        </div>
+						</li>
+						<li class="recipe__item">
+							<svg class="recipe__icon">
+	                            <use href="img/icons.svg#icon-check"></use>
+	                        </svg>
+	                        <div class="recipe__count">3</div>
+	                        <div class="recipe__ingredient">
+	                        	<span class="recipe__unit">cup</span>
+	                        	 sifted powdered sugar
+	                        </div>
+						</li>
+						<li class="recipe__item">
+							<svg class="recipe__icon">
+	                            <use href="img/icons.svg#icon-check"></use>
+	                        </svg>
+	                        <div class="recipe__count">1</div>
+	                        <div class="recipe__ingredient">
+	                        	<span class="recipe__unit">tsp</span>
+	                        	 vanilla extract 
+	                        </div>
+						</li>
+					</ul>
+				</div> -->
+			</div>
+		</div>
+	</div>
+</body>
+</html>
